@@ -1,0 +1,29 @@
+.articles {
+    padding-top: 105px;
+    padding-bottom: 127px;
+    background: rgba(28, 36, 52, 0.02);
+    .container{
+        padding-left: 6px;
+        padding-right: 0px;
+    }
+}
+
+.article-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 62px;
+}
+
+
+@media (max-width: $small) {
+    .articles {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        .container{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+}

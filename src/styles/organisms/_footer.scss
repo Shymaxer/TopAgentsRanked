@@ -1,0 +1,9 @@
+.footer {
+    padding-top: 23px;
+    padding-bottom: 21px;
+}
+@media (max-width: $small) {
+    .footer{
+        text-align: center;
+    }
+}

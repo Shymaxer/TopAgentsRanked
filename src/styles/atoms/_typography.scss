@@ -1,0 +1,85 @@
+.title {
+    font-family: $ProximaNovaBold;
+    font-weight: bold;
+    color: $darkBlue;
+    font-size: 45px;
+    line-height: 52px;
+
+    &.title--headline {
+        color: $white;
+        font-size: 60px;
+        line-height: 62px;
+    }
+
+    &.title--small {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    &.title--white {
+        color: $white;
+        margin-bottom: 58px;
+    }
+
+    &.title--question {
+        font-family: $ProximaNovaSemibold;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    &.title--article-item {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 18px;
+    }
+
+    &.title--prefooter {
+        font-size: 26px;
+        line-height: 33px;
+        margin-bottom: 22px;
+    }
+}
+
+.desc {
+    font-family: $ProximaNova;
+    font-weight: normal;
+    color: $darkBlue;
+    font-size: 18px;
+    line-height: 26px;
+
+    &.desc--lighter {
+        opacity: 0.8;
+    }
+
+    &.desc--white {
+        color: $white;
+    }
+
+    &.desc--small {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    &.desc--comment {
+        color: rgba(36, 31, 58, 0.8);
+        margin-bottom: 56px;
+    }
+
+    &.desc--author {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+
+}
+
+@media (max-width: $small) {
+    .title {
+
+
+        &.title--headline {
+            font-size: 40px;
+        }
+    }
+}

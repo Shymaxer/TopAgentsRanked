@@ -1,0 +1,35 @@
+.about-item {
+    margin-left: 0;
+    padding-right: 60px;
+
+    .title {
+        margin-top: 27px;
+        margin-bottom: 6px;
+    }
+
+    &:last-child {
+        padding-left: 86px;
+        padding-right: 0;
+    }
+
+    &.about-item--long {
+        padding-right: 0;
+    }
+}
+
+
+@media (max-width: $small) {
+    .about-item {
+        padding-right: 15px;
+        margin-bottom: 20px;
+        width: 100%;
+
+        &:last-child {
+            padding-left: 15px;
+        }
+        &.about-item--long {
+            padding-right: 15px;
+        }
+    }
+
+}

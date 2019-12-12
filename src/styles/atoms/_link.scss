@@ -1,0 +1,28 @@
+a {
+    color: $orange;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+
+    &:hover {
+        text-decoration: none;
+        color: $white;
+    }
+
+    &.a--header {
+        color: $white;
+        line-height: 28px;
+        margin-top: 33px;
+    }
+}
+
+
+@media (max-width: $small) {
+    a {
+        margin-bottom: 10px;
+
+        &.a--header {
+            margin-top: 45px;
+        }
+    }
+}

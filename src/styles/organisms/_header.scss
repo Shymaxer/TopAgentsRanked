@@ -1,0 +1,22 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 210px;
+    padding-right: 190px;
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+@media (max-width: $small) {
+    .header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}

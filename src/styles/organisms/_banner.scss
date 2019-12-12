@@ -1,0 +1,21 @@
+.banner{
+    background: linear-gradient(145.58deg, rgba(0, 0, 0, 0.7) 24.7%,
+    rgba(14, 14, 14, 0) 101.37%), url($images+'/bannerBackground.jpg');
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    padding-top: 327px;
+    .section-title{
+        margin-bottom: 31px;
+        .title{
+            margin-bottom: 22px;
+        }
+    }
+}
+
+
+@media (max-width: $small) {
+    .banner{
+        padding-top: 140px;
+    }
+}

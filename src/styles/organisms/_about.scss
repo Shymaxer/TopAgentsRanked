@@ -1,0 +1,25 @@
+.about {
+    background: rgba(36, 31, 58, 0.02);
+    padding-top: 95px;
+    padding-bottom: 109px;
+
+    /* .container {
+        padding-left: 10px;
+    } */
+
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+@media (max-width: $small) {
+    .about{
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+}

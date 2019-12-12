@@ -1,0 +1,29 @@
+.comments {
+    padding-top: 106px;
+    padding-bottom: 133px;
+
+    .section-title {
+        margin-bottom: 44px;
+
+        .title {
+            margin-bottom: 14px;
+
+            &.title--author {
+                font-size: 18px;
+                line-height: 22px;
+                margin-bottom: 2px;
+            }
+        }
+
+        .desc {
+            padding-right: 60px;
+        }
+    }
+}
+
+@media (max-width: $small) {
+    .comments{
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+}

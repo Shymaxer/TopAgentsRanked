@@ -1,0 +1,22 @@
+.banner-btns {
+    margin-bottom: 140px;
+    display: flex;
+    align-items: center;
+
+    .banner-btn {}
+}
+
+
+@media (max-width: $small) {
+    .banner-btns {
+        margin-bottom: 40px;
+        flex-direction: column;
+        justify-content: center;
+
+        .banner-btn {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+}

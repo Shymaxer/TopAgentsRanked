@@ -1,0 +1,62 @@
+[class^="icon"] {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.icon-tr {
+    background-image: url($icons+"/arrowR.svg");
+    width: 10.1px;
+    height: 10px;
+    margin-left: 7.75px;
+}
+
+.icon-service {
+    background-image: url($icons+"/service.svg");
+    width: 34px;
+    height: 34px;
+    margin-right: 15px;
+}
+
+.icon-simplicity {
+    background-image: url($icons+"/simplicity.png");
+    width: 34px;
+    height: 34px;
+    margin-right: 15px;
+}
+
+.icon-results {
+    background-image: url($icons+"/results.svg");
+    width: 34px;
+    height: 34px;
+    margin-right: 15px;
+}
+
+.icon-prevButton {
+    background-image: url($icons+"/prevButton.svg");
+    width: 52px;
+    height: 52px;
+}
+
+.icon-nextButton {
+    background-image: url($icons+"/nextButton.svg");
+    width: 52px;
+    height: 52px;
+}
+
+.icon-arrowDown{
+    
+    background-image: url($icons+"/arrowDown.svg");
+    width: 18px !important;
+    height: 18px;
+    margin-right: 22px;
+
+}
+
+
+@media (max-width: $small) {
+    .icon-results {
+        margin-left: -1px;
+    }
+}

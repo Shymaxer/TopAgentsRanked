@@ -1,0 +1,14 @@
+.about-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: $small) {
+    .about-buttons {
+        margin-bottom: 40px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}

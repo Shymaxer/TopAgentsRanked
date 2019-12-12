@@ -1,0 +1,12 @@
+.pre-footer {
+    padding-top: 55px;
+    padding-bottom: 63px;
+    border-bottom: 1px solid #EFEFEF;
+
+}
+@media (max-width: $small) {
+    .pre-footer{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

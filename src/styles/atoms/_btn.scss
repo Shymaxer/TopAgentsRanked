@@ -1,0 +1,35 @@
+.button {
+    background-color: $orange;
+    color: $white;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 14px 23px;
+    display: inline-block;
+
+    &.button--about {
+        margin-left: 43px;
+    }
+
+    &.button--rounded {
+        border-radius: 3px;
+    }
+
+    &.button--transparent {
+        background-color: transparent;
+        color: $orange;
+        border: solid 1px;
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: $small) {
+    .button {
+        margin-bottom: 10px;
+        &.button--about {
+            margin-left: 0;
+        }
+    }
+}

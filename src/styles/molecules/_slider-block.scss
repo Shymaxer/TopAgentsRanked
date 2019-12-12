@@ -1,0 +1,16 @@
+.slider-block{
+    margin-top: -104px;
+    padding-right: 0;
+    padding-left: 0;
+    .slider-block-col{
+        padding-right: 0;
+        padding-left: 0; 
+    }
+}
+
+
+@media (max-width: $small) {
+    .slider-block{
+        margin-top: 0;
+    }
+}
